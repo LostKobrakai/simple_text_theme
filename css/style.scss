@@ -1,0 +1,41 @@
+@import "compass";
+@import "normalize";
+
+body{
+	color: #0f0f0f;
+	font-family: "Open Sans", Helvetica, "Helvetica Neue", Arial, sans-serif;
+	@media screen and (max-width: 480px){
+		font-size: .875em;
+	}
+}
+
+p{
+	@include hyphens(auto);
+}
+
+header{
+	float: left;
+	img{
+		margin: 0 5px;
+	}
+}
+
+.startpage{
+	max-width: 800px;
+	font-size: 2.25em;
+	@media screen and (max-width: 320px){
+		font-size: 1.5em;
+	}
+	line-height: 1.3em;
+	font-weight: 800;
+	float: left;
+	margin: .5em .5em;
+}
+
+a{
+	color: #0578c8;
+}
+
+.tright{
+	text-align: right;
+}
